@@ -1,0 +1,19 @@
+{
+  "name": "Spectrolite",
+  "version": "1",
+  "description": "AoC in Typescript",
+  "main": "bin/Spectrolite.js",
+  "author": "MoonWolf",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "ts-node": "^10.9.1"
+  }
+}
