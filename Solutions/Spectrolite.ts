@@ -1,4 +1,4 @@
-import { Y2015_Day01 } from "./2015/Day01";
+import { Solution } from "./2015/Day01";
 
-const s = new Y2015_Day01();
+const s = new Solution();
 s.Solve();

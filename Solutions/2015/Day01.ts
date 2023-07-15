@@ -1,7 +1,7 @@
 import type { AoCSolution } from "../SpectroLib"
 import * as fs from 'fs';
 
-export class Y2015_Day01 implements AoCSolution {
+export class Solution implements AoCSolution {
     Solve(): void {
         //const exampletData = this.ReadInput("Problems/2015/01/example.txt");
         //this.Part1(exampletData);
