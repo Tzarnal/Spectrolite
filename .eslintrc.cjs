@@ -4,4 +4,9 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
     root: true,
-  };
+    rules: {        
+        "curly": "warn",        
+        "prefer-const": "warn",
+        "no-unused-vars": "warn",        
+    }
+};
