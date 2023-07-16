@@ -1,5 +1,6 @@
 import type { AoCSolution } from '../SpectroLib';
 import * as fs from 'fs';
+//import * as fsPromise from 'fs/promises';
 
 export class Solution implements AoCSolution {
     Solve(): void {
