@@ -4,21 +4,21 @@ import * as fs from 'fs';
 
 export class Solution implements AoCSolution {
     Solve(): void {
-        const exampletData = this.ReadInput('Problems/2015/01/example.txt');
+        const exampletData = this.ReadInput('Problems/2015/00/example.txt');
         this.Part1(exampletData);
         //this.Part2(exampletData);
 
-        //const data = this.ReadInput("..");
+        //const data = this.ReadInput('Problems/2015/00/input.txt');
         //this.Part1(data);
         //this.Part2(data);
     }
 
     Part1(input: string): void {
-        console.log('A Solution can be found.' + input);
+        console.log('A Solution can be found.');
     }
 
     Part2(input: string): void {
-        console.log('A Solution can be found.' + input);
+        console.log('A Solution can be found.');
     }
 
     ReadInput(file: string): string {
