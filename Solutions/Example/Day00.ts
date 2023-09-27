@@ -22,7 +22,7 @@ export class Solution implements AoCSolution {
     }
 
     ReadInput(file: string): string {
-        const data = fs.readFileSync(file, 'utf-8');
+        const data = fs.readFileSync(file, 'utf-8').trim();
         return data;
     }
 }
