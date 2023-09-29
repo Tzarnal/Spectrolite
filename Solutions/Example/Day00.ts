@@ -14,11 +14,11 @@ export class Solution implements AoCSolution {
     }
 
     Part1(input: string): void {
-        console.log('A Solution can be found.');
+        console.log(`A Solution can be found.`);
     }
 
     Part2(input: string): void {
-        console.log('A Solution can be found.');
+        console.log(`A Solution can be found.`);
     }
 
     ReadInput(file: string): string {
